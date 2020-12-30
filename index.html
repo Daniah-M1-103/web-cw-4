@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>بطاقتي التعريفية</title>
     <!--  قم بربط هذه الصفحة  مع css -->
+    <link rel="stylesheet" href="styles.css">
     <!--  ربط google fonts -->
   </head>
 
   <body>
     <nav>
       <div class="nav-elements">
-        <a href="#">هويّتي</a>
-        <a href="#">هواياتي</a>
+        <a href="#section1">هويّتي</a>
+        <a href="#section2">هواياتي</a>
       </div>
     </nav>
     <h1>مرحباً، أنا طالب في مسار الويب</h1>
@@ -25,21 +26,27 @@
       <img src="./img/kid.png" alt="person" />
 
       <!-------------------(البيانات)------------------>
-      <h1>اسمك</h1>
+      <div id="section1">     
+      <h1>Dania</h1>
       <h4>هواياتي المفضلة</h4>
 
       <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
+        <li>الرسم</li>
+        <li>المطالعة</li>
+        <li>السباحة</li>
       </ul>
 
       <a href="https://code.kw/">
         <h3>تصفح موقع الكويت تبرمج</h3>
       </a>
     </div>
+  </div>
     <!-------------------(الهوايات)------------------>
     <!-- قم بإضافة صور هواياتك هنا -->
-    <div class="hobbies"></div>
+    <div class="hobbies" id="section2">
+      <img src="./img/books.png" alt="person" />
+      <img src="./img/new.jpg" alt="person" />
+      <img src="./img/water.jpg" alt="person" />
+    </div>
   </body>
 </html>
